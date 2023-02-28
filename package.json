@@ -1,0 +1,22 @@
+{
+  "name": "fashionblog",
+  "version": "1.0.0",
+  "description": "fashionblog",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekhar25031994/FirstProjectWithGit.git"
+  },
+  "author": "sekhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sekhar25031994/FirstProjectWithGit/issues"
+  },
+  "homepage": "https://github.com/sekhar25031994/FirstProjectWithGit#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
