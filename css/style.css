@@ -1,5 +1,74 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #0c0c8a; }
+
+.container {
+  padding: 4rem 4rem;
+  width: 50%;
+  margin: 10rem auto;
+  background-color: white;
+  margin-top: 10rem; }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem; }
+  .header__left {
+    text-align: center; }
+  .header__img {
+    width: 10rem;
+    height: 10rem; }
+
+.form {
+  display: flex;
+  flex-direction: column; }
+  .form__header {
+    margin-bottom: 2rem;
+    padding-left: 2rem; }
+  .form__inputs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem; }
+  .form__input input {
+    padding: .5rem .5rem;
+    display: flex;
+    margin-bottom: 1rem; }
+  .form__section1 {
+    display: flex;
+    padding: 5rem 0;
+    justify-content: space-evenly; }
+  .form__section2 {
+    display: flex;
+    padding: 5rem 0;
+    justify-content: space-evenly; }
+  .form__studentDetails {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%; }
+  .form__studentDetails input {
+    padding: .6rem; }
+  .form__studentDetails label {
+    margin-bottom: .5rem; }
+  .form__selectStudentDetails {
+    padding: .6rem; }
+  .form__selectStudentDetails {
+    padding: .6rem; }
+  .form__submit {
+    width: 10rem;
+    padding: .5rem;
+    margin-left: 2rem;
+    box-shadow: 0rem 0rem 0.5rem #626060; }
+    .form__submit:hover {
+      background-color: blue;
+      color: white; }

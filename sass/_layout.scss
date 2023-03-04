@@ -1,0 +1,22 @@
+.container{
+    padding: 4rem 4rem;
+    width: 50%;
+    margin: 10rem auto;
+    background-color: white;
+    margin-top: 10rem;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    &__right{
+
+    }
+    &__left{
+        text-align: center;
+    }
+    &__img{
+        width: 10rem;
+        height: 10rem;
+    }
+}

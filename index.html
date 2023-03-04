@@ -11,5 +11,64 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>hiii git</h1>
+ <div class="container">
+    <div class="header">
+        <div class="header__right">
+            <img src="images/modern-company-logo-design-vector.webp" alt="" class="header__img">
+        </div>
+        <div class="header__left">
+            <h1>class registration</h1>
+            <p>fill out the form carefully for registration</p>
+        </div>
+    </div>
+    <form action="#" class="form">
+        <legend class="form__header">Student Name</legend>
+        <div class="form__inputs">
+            <div class="form__input">
+                <input type="text" id="firstName" name="firstName">
+                <label for="firstName">firstname</label>
+            </div>
+            <div class="form__input">
+                <input type="text" id="middlename" name="middlename">
+                <label for="middlename">middlename</label>
+            </div>
+            <div class="form__input">
+                <input type="text" id="lastname" name="lastname">
+                <label for="lastname">lastname</label>
+            </div>
+        </div>
+        <div class="form__section1">
+            <div class="form__studentDetails">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" class="form__selectStudentDetails">
+                    <option value="male">Male</option>
+                    <option value="male">FeMale</option> 
+                    <option value="" selected>Choose Gender</option>
+                </select>
+            </div>
+            <div class="form__studentDetails">
+                <label for="email">Student Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </div>
+        <div class="form__section2">
+            <div class="form__studentDetails">
+                <label for="number">Student Id</label>
+                <input type="number" id="number" name="number">
+            </div> 
+            <div class="form__studentDetails">
+                <label for="listOfClasses">List Of Classes</label>
+                <select name="listOfClasses" id="listOfClasses" class="form__selectStudentDetails">
+                    <option value="mathes">mathes</option>
+                    <option value="social">social</option>
+                    <option value="science">science</option>
+                    <option value="telugu">telugu</option>
+                    <option value="" selected>chosse class</option>  
+                </select>
+            </div>
+        </div>
+        <input type="submit" value="submit" class="form__submit">
+    </form>
+ </div>   
+
 </body>    

@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;//10/16 = 0.625, 1rem = 16px we fix it 10px now
+}
+body{
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: rgb(12, 12, 138);
+}
